@@ -109,7 +109,7 @@ Returns an RSS feed parsed by the server and converted to HTML suitable for embe
  ![Screenshot of webpage](./client/screenshot.png)
  
 * **A** -  _The menu_: Opens the website's sidebar, allowing for navigation between the main content pages (see Pages section below)
-* **B** - _The canvas_: This is the main interactive section of the webpage; while the rest of the page remains static, this section dynamically changes as the website is navigated.
+* **B** - _The canvas_: This is the main interactive section of the webpage; while the rest of the page remains mostly static, this section dynamically changes as the website is navigated.
 * **C** - _Login_: Clicking on this will take you to the login page (see more details below). Once logged in, this button will change to show what account you're using, and clicking here will allow you to access the Account page.
  ## Pages
  ### Home page/Pokemon of the Day page
