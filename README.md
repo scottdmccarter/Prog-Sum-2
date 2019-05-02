@@ -106,13 +106,16 @@ Returns an RSS feed parsed by the server and converted to HTML suitable for embe
 
 # Webpage: Pokémon Fansite
 ### Website layout:
- ![](./client/screenshot.png =250x)
+ ![Screenshot of webpage](./client/screenshot.png)
+ 
+* **A** -  _The menu button_: Opens the website's sidebar, allowing for navigation between the main content pages (see Pages section below)
+* **B** - _The canvas_: This is the main interactive section of the webpage; while the rest of the page remains static, this section dynamically changes based on the 
  ##Pages
  ### Home page
  This page displays the "Pokemon of The Day"
  
  ### Pokedex
- This page allows users to search pokemon by either name or Pokedex ID. The search function will automatially suggest searches as you type, and the pokemon information provided comes from the pokemon API. 
+ This page allows users to search pokemon by either name or Pokedex ID. The search function will automatially suggest searches as you type, and the pokemon information provided comes from the Pokemon API*. 
  
- **NOTE: The Pokemon API has a fixed limit of 100 API requests per IP address per minute, this has never been an issue during development, but it should be noted** 
+ **\*N.B.** The Pokemon API has a fixed limit of 100 API requests per IP address per minute, this has never been an issue during development, but it should be noted
 
