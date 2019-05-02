@@ -116,7 +116,7 @@ Returns an RSS feed parsed by the server and converted to HTML suitable for embe
 Each day this page will show a different pokemon to the day before!
  
  ### Pokedex
- This page allows users to search pokemon by either name or Pokedex ID. The search function will automatially suggest searches as you type, and the pokemon information provided comes from the Pokemon API*. Once logged in the Pokedex is used to add or remove pokemon from the user's favourites.
+ This page allows users to search pokemon by either name or Pokedex ID. The search function will automatially suggest searches as you type, and the pokemon information provided comes from the Pokemon API. Once logged in the Pokedex is used to add or remove pokemon from the user's favourites.
 
  
  ### User Favourites
@@ -128,5 +128,11 @@ Each day this page will show a different pokemon to the day before!
  ### Account Page
  In the account page you can view your own favourite pokemon. From here you can also easily remove Pokemon from your favourites.
  
- **\*N.B.** The Pokemon API has a fixed limit of 100 API requests per IP address per minute, this has never been an issue during development, but it should be noted
+
+## General Usage Notes
+ **N.B.** The Pokemon API has a fixed limit of 100 API requests per IP address per minute, this has never been an issue during development, but it should be noted
+ 
+ * The Webpage is designed to be responsive, with effective layouts on both mobile and desktop. However the page should be refreshed in order to fully adjust to the different device.
+ * Users are free to create their own profiles or login using Google, but there are also 5 test accounts available, should you wish to experiment with viewing other user's favourite pokemon, for example.
+ (These users all have the form, _username:_ testX, _password:_ passwordX, where X is a number from 1 to 5, eg. test1 & password1 )
 

@@ -16,7 +16,73 @@
       <change beforePath="$PROJECT_DIR$/../../Misc work/TERM 2/testing/Take2/client/header3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Misc work/TERM 2/testing/Take2/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Misc work/TERM 2/testing/Take2/client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Misc work/TERM 2/testing/Take2/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-local/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-local/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-local/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-local/lib/strategy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-local/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-local/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/lib/strategy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport-strategy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/authenticator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/errors/authenticationerror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/framework/connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/http/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/middleware/authenticate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/middleware/initialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/sessionmanager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/lib/strategies/session.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/passport/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pause/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pause/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pause/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pause/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pause/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pause/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,11 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -43,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="419">
-                <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+              <first_editor relative-caret-position="385">
+                <caret line="136" column="120" selection-start-line="136" selection-start-column="120" selection-end-line="136" selection-end-column="120" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="58" />
+            <state relative-caret-position="179">
+              <caret line="263" column="18" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -82,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="-127">
               <caret line="229" column="33" selection-start-line="229" selection-start-column="33" selection-end-line="229" selection-end-column="33" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -102,20 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/users.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -124,15 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>all_users</find>
-      <find>signup</find>
-      <find>sign_up</find>
-      <find>app.</find>
-      <find>api</find>
-      <find>apiR</find>
-      <find>fav</find>
-      <find>find</find>
-      <find>username</find>
       <find>username_taken</find>
       <find>account</find>
       <find>add</find>
@@ -140,7 +188,6 @@
       <find>i</find>
       <find>pages</find>
       <find>sign_up_submit</find>
-      <find>page1</find>
       <find>pok</find>
       <find>logout</find>
       <find>####</find>
@@ -153,7 +200,17 @@
       <find>submit_pokemon</find>
       <find>pokedex</find>
       <find>submit</find>
+      <find>morga</find>
+      <find>connect</find>
+      <find>page1</find>
+      <find>pokemon</find>
       <find>search</find>
+      <find>status</find>
+      <find>/pokemon</find>
+      <find>express</find>
+      <find>router</find>
+      <find>cookie</find>
+      <find>gsignin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,14 +219,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
         <option value="$PROJECT_DIR$/client/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/client/index.js" />
-        <option value="$PROJECT_DIR$/app.test.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/users.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app.test.js" />
       </list>
     </option>
   </component>
@@ -226,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.POST /api/add_fav succeeds with correct auth">
+  <component name="RunManager" selected="Jest.Test the page services">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -236,7 +293,20 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="POST /api/add_fav succeeds with correct auth" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Test the page services" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/app.test.js" />
+      <test-names>
+        <test-name value="Test the page services" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the page services.GET /rss succeeds" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -245,11 +315,39 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/app.test.js" />
       <test-names>
-        <test-name value="POST /api/add_fav succeeds with correct auth" />
+        <test-name value="Test the page services" />
+        <test-name value="GET /rss succeeds" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Test the users service.POST /login doesn't work with incorrect credentials" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Test the pokemon services" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/app.test.js" />
+      <test-names>
+        <test-name value="Test the pokemon services" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the pokemon services.GET /pokemon works" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/app.test.js" />
+      <test-names>
+        <test-name value="Test the pokemon services" />
+        <test-name value="GET /pokemon works" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test the users service.GET /logout succeeds" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -259,67 +357,25 @@
       <test-file value="$PROJECT_DIR$/app.test.js" />
       <test-names>
         <test-name value="Test the users service" />
-        <test-name value="POST /login doesn't work with incorrect credentials" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test the users service.POST /login returns JSON" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/app.test.js" />
-      <test-names>
-        <test-name value="Test the users service" />
-        <test-name value="POST /login returns JSON" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test the users service.POST /login returns profile" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/app.test.js" />
-      <test-names>
-        <test-name value="Test the users service" />
-        <test-name value="POST /login returns profile" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test the users service.POST /login works" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/app.test.js" />
-      <test-names>
-        <test-name value="Test the users service" />
-        <test-name value="POST /login works" />
+        <test-name value="GET /logout succeeds" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Test the users service.POST /login works" />
-      <item itemvalue="Jest.Test the users service.POST /login doesn't work with incorrect credentials" />
-      <item itemvalue="Jest.Test the users service.POST /login returns profile" />
-      <item itemvalue="Jest.Test the users service.POST /login returns JSON" />
-      <item itemvalue="Jest.POST /api/add_fav succeeds with correct auth" />
+      <item itemvalue="Jest.Test the users service.GET /logout succeeds" />
+      <item itemvalue="Jest.Test the pokemon services.GET /pokemon works" />
+      <item itemvalue="Jest.Test the pokemon services" />
+      <item itemvalue="Jest.Test the page services.GET /rss succeeds" />
+      <item itemvalue="Jest.Test the page services" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.POST /api/add_fav succeeds with correct auth" />
-        <item itemvalue="Jest.Test the users service.POST /login returns JSON" />
-        <item itemvalue="Jest.Test the users service.POST /login returns profile" />
-        <item itemvalue="Jest.Test the users service.POST /login doesn't work with incorrect credentials" />
-        <item itemvalue="Jest.Test the users service.POST /login works" />
+        <item itemvalue="Jest.Test the page services" />
+        <item itemvalue="Jest.Test the page services.GET /rss succeeds" />
+        <item itemvalue="Jest.Test the pokemon services" />
+        <item itemvalue="Jest.Test the pokemon services.GET /pokemon works" />
+        <item itemvalue="Jest.Test the users service.GET /logout succeeds" />
       </list>
     </recent_temporary>
   </component>
@@ -333,44 +389,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556765316534</updated>
-      <workItem from="1556765322919" duration="26973000" />
+      <workItem from="1556765322919" duration="31997000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_the_users_service_POST__login_works - 2019.05.02 at 06h 44m 58s.xml">
-      <configuration name="Test the users service.POST /login works" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_page_services_GET__account_returns_json - 2019.05.02 at 12h 49m 50s.xml">
+      <configuration name="Test the page services.GET /account returns json" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Test_the_users_service_POST__login_works - 2019.05.02 at 06h 45m 24s.xml">
-      <configuration name="Test the users service.POST /login works" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_page_services_GET__account_returns_HTML - 2019.05.02 at 12h 51m 08s.xml">
+      <configuration name="Test the page services.GET /account returns HTML" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Test_the_users_service_POST__login_doesn't_work_with_incorrect_credentials - 2019.05.02 at 06h 47m 44s.xml">
-      <configuration name="Test the users service.POST /login doesn't work with incorrect credentials" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_page_services_GET__rss_returns_HTML - 2019.05.02 at 12h 51m 51s.xml">
+      <configuration name="Test the page services.GET /rss returns HTML" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Test_the_users_service_POST__login_returns_profile - 2019.05.02 at 06h 47m 53s.xml">
-      <configuration name="Test the users service.POST /login returns profile" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_page_services_GET__rss_contains_pokemon - 2019.05.02 at 12h 52m 25s.xml">
+      <configuration name="Test the page services.GET /rss contains pokemon" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Test_the_users_service_POST__login_returns_JSON - 2019.05.02 at 06h 48m 41s.xml">
-      <configuration name="Test the users service.POST /login returns JSON" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_page_services_GET__rss_returns_HTML - 2019.05.02 at 12h 52m 35s.xml">
+      <configuration name="Test the page services.GET /rss returns HTML" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="POST__api_add_fav_succeeds_with_correct_auth - 2019.05.02 at 09h 57m 40s.xml">
-      <configuration name="POST /api/add_fav succeeds with correct auth" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="GET__cookie_check_contains_pokemon - 2019.05.02 at 12h 53m 38s.xml">
+      <configuration name="GET /cookie_check contains pokemon" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="POST__api_add_fav_succeeds_with_correct_auth - 2019.05.02 at 09h 59m 50s.xml">
-      <configuration name="POST /api/add_fav succeeds with correct auth" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="GET__cookie_check_contains_pokemon - 2019.05.02 at 12h 54m 11s.xml">
+      <configuration name="GET /cookie_check contains pokemon" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="POST__api_add_fav_succeeds_with_correct_auth - 2019.05.02 at 10h 00m 14s.xml">
-      <configuration name="POST /api/add_fav succeeds with correct auth" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_users_service_GET__logout_succeeds - 2019.05.02 at 12h 55m 55s.xml">
+      <configuration name="Test the users service.GET /logout succeeds" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="POST__api_add_fav_succeeds_with_correct_auth - 2019.05.02 at 10h 01m 51s.xml">
-      <configuration name="POST /api/add_fav succeeds with correct auth" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_pokemon_services_GET__pokemon_works - 2019.05.02 at 12h 56m 41s.xml">
+      <configuration name="Test the pokemon services.GET /pokemon works" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="POST__api_add_fav_succeeds_with_correct_auth - 2019.05.02 at 10h 03m 46s.xml">
-      <configuration name="POST /api/add_fav succeeds with correct auth" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Test_the_pokemon_services - 2019.05.02 at 12h 57m 00s.xml">
+      <configuration name="Test the pokemon services" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26973000" />
+    <option name="totallyTimeSpent" value="31997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1721" height="1051" extended-state="6" />
@@ -378,15 +434,15 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4994062" visible="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4994062" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50059384" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297062" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,10 +459,10 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -417,6 +473,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="229" column="33" selection-start-line="229" selection-start-column="33" selection-end-line="229" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -424,10 +499,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="385">
+            <caret line="136" column="120" selection-start-line="136" selection-start-column="120" selection-end-line="136" selection-end-column="120" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="58" />
+        <state relative-caret-position="179">
+          <caret line="263" column="18" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -441,39 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="229" column="33" selection-start-line="229" selection-start-column="33" selection-end-line="229" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="419">
-            <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

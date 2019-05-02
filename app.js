@@ -1,8 +1,10 @@
 /////////////////////////////////////////////////////////
 //Initialising various modules etc
-
+let bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 const fetch = require('node-fetch');
 const fs = require('fs');
 const bcrypt = require('bcrypt');
@@ -12,14 +14,13 @@ let parser = new Parser();
 let rssfeed ='';
 getrssfeed()
 
-let bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
+
 
 let jwt = require('jsonwebtoken'); // used to create, sign, and verify tokens
 app.set('superSecret', "secret"); // secret variable
 let session = require('express-session');
 const all_pokemon = require('./all_pokemon.json');
+
 
 
 app.use(session({

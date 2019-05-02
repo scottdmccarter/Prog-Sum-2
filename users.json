@@ -34,7 +34,6 @@
         158,
         159,
         160
-
       ]
     },
     {
@@ -90,6 +89,38 @@
         502,
         503
       ]
+    },
+    {
+      "uname": "test764",
+      "fname": "Test",
+      "sname": "Number764",
+      "fullname": "Test Number764",
+      "password": "$2b$10$ZegYjvcfE8gLL3p9xvwceOk8a/eOE.ltEBhsgucGBFkZ7qbOtPN8G",
+      "favourites": []
+    },
+    {
+      "uname": "test883",
+      "fname": "Test",
+      "sname": "Number883",
+      "fullname": "Test Number883",
+      "password": "$2b$10$.cPvFGm/GdTPG94CnRG.Ze/.g5RApPny.hVDrS16fKjXh0OVGCxoK",
+      "favourites": []
+    },
+    {
+      "uname": "test133",
+      "fname": "Test",
+      "sname": "Number133",
+      "fullname": "Test Number133",
+      "password": "$2b$10$6E8G6AlCC/L.WwaU/gAqoexpyWRRwsb1PGY6EX3nW2RCSajnzn.MC",
+      "favourites": []
+    },
+    {
+      "uname": "test344",
+      "fname": "Test",
+      "sname": "Number344",
+      "fullname": "Test Number344",
+      "password": "$2b$10$O4zKE0ldfkUuVcOdd.2RseCZz/lEPHJLco4yr9t1HthjERzp8FzCu",
+      "favourites": []
     }
   ]
 }

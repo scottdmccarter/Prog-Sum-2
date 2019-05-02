@@ -3,14 +3,7 @@
 const request = require('supertest');
 const app = require('./app');
 
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmFtZSI6InRlc3QxIiwiZm5hbWUiOiJUZXN0Iiwic25hbWUiOiJPbmUiLCJmdWxsbmFtZSI6IlRlc3QgT25lIiwiZmF2b3VyaXRlcyI6WzEsMiwzLDQsNV0sImlhdCI6MTU1Njc3NTQxMSwiZXhwIjoxNTU2Nzc2ODUxfQ.jxPuXZ1BRtNog-AQqdSCayrb07-s561i1R6YJXCyJnA'
-// // mock the login so that it always says we are logged in
-// jest.mock('./login', () => { return jest.fn(() => true)});
-//
-// const login = require('./login');
 
-// thanks to Nico Tejera at https://stackoverflow.com/questions/1714786/query-string-encoding-of-a-javascript-object
-// returns something like "access_token=concertina&username=bobthebuilder"
 function serialise(obj){
     return Object.keys(obj).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(obj[k])}`).join('&');
 }
@@ -55,13 +48,14 @@ describe('Test the users service', () => {
         let username = 'test1';
         let password =  'password1';
         const params = {uname: username,password:password};
-        return request(app)
+        let a = request(app)
             .post('/login')
             .send(serialise(params)).expect(200);
+        console.log(a)
+        return a
     });
 
     test('POST /login doesn\'t work with incorrect credentials', () => {
-        // create a randomly named user
         let username = 'test1';
         let password =  'password404';
         const params = {uname: username,password:password};
@@ -70,63 +64,23 @@ describe('Test the users service', () => {
             .send(serialise(params)).expect(409);
     });
 
-    // test('POST /login returns JSON', () => {
-    //     // create a randomly named user
-    //     let username = 'test1';
-    //     let password =  'password1';
-    //     const params = {uname: username,password:password};
-    //     return request(app)
-    //         .post('/login')
-    //         .send(serialise(params)).expect('Content-type', /json/);
-    // });
+    test('POST /login returns JSON', () => {
+        let username = 'test1';
+        let password =  'password1';
+        const params = {uname: username,password:password};
+        return request(app)
+            .post('/login')
+            .send(serialise(params)).expect('Content-type', /json/);
+    });
+
+    test('GET /logout succeeds', () => {
+        return request(app)
+            .get('/logout')
+            .expect(200);
+    });
 });
 
-// describe('Test the favourites service', () => {
-//     test('GET /fav succeeds', async (done) => {
-//         let username = 'test1';
-//         const params = {"uname": username};
-//         return await request(app)
-//             .get('/fav?uname=test1')
-//             // .send(serialise(params))
-//             .expect(200)
-//             done();
-//     });
-//
-//     test('GET /fav returns JSON',  async (done) => {
-//         let username = 'test1';
-//         const params = {uname: username};
-//         return await request(app)
-//             .get('/fav')
-//             .send(serialise(params)).expect('Content-type', /json/);
-//         done();
-//     });
-//
-    test('POST /api/add_fav succeeds with correct auth', () => {
-        let pokeID = '1';
-        const params = {pokeID: pokeID,token:token};
-        return request(app)
-            .post('/api/add_fav')
-            .send(serialise(params))
-            .expect();
-    });
-//
-//     test('POST /sign_up_submit works', () => {
-//         // create a randomly named user
-//         let num = Math.floor(Math.random() * 101);
-//         let username = 'test'+ num
-//         let firstname = 'Test'
-//         let surname =  'Number'+num
-//         let password =  'password'+num
-//         const params = {uname: username,
-//             fname: firstname, sname:surname,password:password};
-//         // add it to the list of existing users
-//         return request(app)
-//             .post('/sign_up_submit')
-//             .send(serialise(params)).expect(200);
-//     });
-// });
-
-describe('Test the all_pokemon service', () => {
+describe('Test the pokemon services', () => {
     test('GET /all_pokemon succeeds', () => {
         return request(app)
             .get('/all_pokemon')
@@ -144,22 +98,83 @@ describe('Test the all_pokemon service', () => {
             .get('/all_pokemon')
             .expect(/Pikachu/)
     });
+
+});
+
+describe('Test the page services', () => {
+
+    test('GET /pages succeeds', () => {
+        return request(app)
+            .get('/pages')
+            .expect(200);
+    });
+
+    test('GET /pages returns JSON', () => {
+        return request(app)
+            .get('/pages')
+            .expect('Content-type', /json/);
+    });
+
+    test('GET /pages contains pokedex', () => {
+        return request(app)
+            .get('/pages')
+            .expect(/pokedex/);
+    });
+
+    test('GET /potd succeeds', () => {
+        return request(app)
+            .get('/potd')
+            .expect(200);
+    });
+
+    test('GET /potd returns JSON', () => {
+        return request(app)
+            .get('/potd')
+            .expect('Content-type', /json/);
+    });
+
+    test('GET /potd returns JSON', () => {
+        return request(app)
+            .get('/potd')
+            .expect(/Sprite/);
+    });
+
+    test('GET /loginPage succeeds', () => {
+        return request(app)
+            .get('/loginPage')
+            .expect(200);
+    });
+
+
+    test('GET /loginPage returns HTML', () => {
+        return request(app)
+            .get('/loginPage')
+            .expect('Content-type', /html/);
+    });
+
+    test('GET /loginPage contains login', () => {
+        return request(app)
+            .get('/loginPage')
+            .expect(/login/);
+    });
+
+    test('GET /rss succeeds', () => {
+        return request(app)
+            .get('/rss')
+            .expect(200);
+    });
+
+    test('GET /rss returns HTML', () => {
+        return request(app)
+            .get('/rss')
+            .expect('Content-type', /html/);
+    });
+
+    test('GET /rss contains pokemon', () => {
+        return request(app)
+            .get('/rss')
+            .expect(/pokemon/);
+    });
 });
 
 
-
-//app.post('/login'
-//app.post('/gsignin'
-//app.get('/pokemon'
-//app.get('/potd'
-//app.get('/loginPage'
-//app.get('/account'
-//app.get('/pages'
-//app.get('/rss'
-//app.get('/cookie_check'
-//app.get('/logout',
-
-
-//app.get('/fav'
-//apiRoutes.post('/add_fav'
-//apiRoutes.post('/delete_fav
