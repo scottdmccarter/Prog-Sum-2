@@ -108,14 +108,25 @@ Returns an RSS feed parsed by the server and converted to HTML suitable for embe
 ### Website layout:
  ![Screenshot of webpage](./client/screenshot.png)
  
-* **A** -  _The menu button_: Opens the website's sidebar, allowing for navigation between the main content pages (see Pages section below)
-* **B** - _The canvas_: This is the main interactive section of the webpage; while the rest of the page remains static, this section dynamically changes based on the 
- ##Pages
- ### Home page
- This page displays the "Pokemon of The Day"
+* **A** -  _The menu_: Opens the website's sidebar, allowing for navigation between the main content pages (see Pages section below)
+* **B** - _The canvas_: This is the main interactive section of the webpage; while the rest of the page remains static, this section dynamically changes as the website is navigated.
+* **C** - _Login_: Clicking on this will take you to the login page (see more details below). Once logged in, this button will change to show what account you're using, and clicking here will allow you to access the Account page.
+ ## Pages
+ ### Home page/Pokemon of the Day page
+Each day this page will show a different pokemon to the day before!
  
  ### Pokedex
- This page allows users to search pokemon by either name or Pokedex ID. The search function will automatially suggest searches as you type, and the pokemon information provided comes from the Pokemon API*. 
+ This page allows users to search pokemon by either name or Pokedex ID. The search function will automatially suggest searches as you type, and the pokemon information provided comes from the Pokemon API*. Once logged in the Pokedex is used to add or remove pokemon from the user's favourites.
+
+ 
+ ### User Favourites
+ This page allows the user to search for other users and view their favourite pokemon. Similar to the pokedex, this search function will automatially suggest searches as you type. 
+ 
+ ### Login Page
+ Here you can login either using an email and password, or via Google sign-in. If you're a new user you can also sign up!
+ 
+ ### Account Page
+ In the account page you can view your own favourite pokemon. From here you can also easily remove Pokemon from your favourites.
  
  **\*N.B.** The Pokemon API has a fixed limit of 100 API requests per IP address per minute, this has never been an issue during development, but it should be noted
 
