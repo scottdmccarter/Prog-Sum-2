@@ -1,0 +1,73 @@
+html{
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    font-size: 50px;
+}
+.indent{
+
+}
+li{
+    padding: 5px 40px;
+}
+
+#content{
+    text-align: center;
+    /*font-size: 25px;*/
+}
+
+.menu{
+    background-color: slategrey;
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    fontweight:bold;
+}
+
+.background{
+    background-color: #7E317B;
+    padding: 10px 40px;
+    transition: .5s;
+}
+.button{
+    background-color: slategray;
+    display: inline-block;
+    color: white;
+    transition: .5s;
+    list-style: none;
+}
+.button:hover{
+    background-color: #7E317B;
+    cursor:pointer;
+    transition: background .5s;
+}
+
+.box {
+    alignment: center;
+    text-align: center;
+    width: 300px;
+    height: px;
+    background: red;
+    transition: width 2s;
+    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+}
+
+.box:hover {
+    transition-duration: 5s;
+    width: 500px;
+}
+
+
+
+

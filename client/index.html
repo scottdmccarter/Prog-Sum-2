@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title> Pokémon Fansite </title>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+    <script src="/semantic/dist/semantic.min.js"></script>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=yes, initial-scale=1">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="129854931760-go23hn0ijbpifuneahg54kvm8tit27je.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <style>
+        .g-signin2{
+            width: 100%;
+        }
+
+        .g-signin2 > div{
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body style="background-image:url(background.png);">
+<div class="ui labeled icon left inverted vertical sidebar borderlesss menu">
+    <a class="ui item active" id="home">
+        <i class="home icon"></i><h4> Home</h4>
+    </a>
+    <a class="ui item" id="pokedex">
+        <i class="fax icon"></i><h4>Pokédex</h4>            </a>
+    <a class="ui item" id="favourites">
+        <i class="heart icon"></i><h4>User Favourites</h4>
+    </a>
+</div>
+
+<div class="pusher" style="background-image:url(background.png);">
+<br/>
+<div class="ui top" style="background-image:url(background.png)">
+
+<img src="banner.png" class="ui image fluid rounded centered huge" height="100" alt="Banner for website containing \'Pokemon Fansite'" style="background-image:url(background.png); align-self: center">
+
+</div>
+<br/>
+<div class="ui inverted attached borderless menu">
+    <div class="ui container">
+        <a id="potd" class="container"> </a>
+
+        <a class="ui open item">
+            <h4><i class="sidebar icon"></i>Menu</h4>
+    </a>
+        <div class="ui right item">
+            <a>
+                <h4 class="text" id="loginPage"> <i class="user icon"></i>Log in</h4></a>
+            <div class="ui pointing dropdown top right">
+            <div class="menu">
+                <div class="header">Account</div>
+                <div class="divider"></div>
+                <div class="item link" id="account">My Account</div>
+                <div class="item button" id="logout">Log Out</div>
+            </div>
+            </div>
+        </div>
+    <a id="potd2">
+    </a>
+
+    </div>
+</div>
+
+<div class="ui container">
+
+    <br/>
+    <div class="ui grid">
+            <div class="fluid computer only tablet only three column stackable row" style="text-align: center">
+            <div class="ui column">
+                <div class="ui inverted segment" style="max-height:710px;max-width: 375px">
+                <div class="ui segment" id="left" style="overflow:auto;max-height:680px;max-width: 375px;text-align: left">
+                </div>
+                </div>
+            </div>
+            <div class="ui fluid column">
+                <div class="ui inverted segment">
+                    <div class="ui segment">
+                    <div id="content_here" style="text-align:center;max-height: 520px;max-width:500px;" >
+                        </div>
+                    </div>
+
+                    </div>
+                <div class="ui bottom inverted segment">
+                <div class="ui segment">
+                    <iframe src="https://open.spotify.com/embed/artist/6goK4KMSdP4A8lw8jk4ADk" class="ui fluid" height="80" allow="encrypted-media"></iframe>
+                </div>
+                </div>
+
+
+            </div>
+            <div class="ui column">
+                <div class="ui inverted segment" style="max-height:710px;max-width: 330px">
+                <div class="ui segment" id="right" style="overflow:auto;max-height:680px;max-width: 300px">
+
+                    <a class="twitter-timeline" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/Pokemon?ref_src=twsrc%5Etfw">Tweets by Pokémon</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="fluid mobile only three column stackable row" style="text-align: center">
+            <div class="ui fluid column">
+                <div class="ui inverted segment" style="max-height:750px">
+                    <div class="ui segment" id="mobile_top" style="overflow:auto;max-height:700px">
+                    </div>
+                </div>
+            </div>
+            <div class="ui fluid column">
+                <div class="ui inverted segment">
+                    <div class="ui segment">
+                        <div id="mobile_middle" style="text-align:center;max-height: 700px;overflow:auto;" >
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui fluid column">
+                <div class="ui inverted segment" style="overflow:auto;max-height:710px">
+                    <div class="ui segment" id="mobile_bottom" style="overflow:auto;max-height:680px">
+
+                        <a class="twitter-timeline" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/Pokemon?ref_src=twsrc%5Etfw">Tweets by Pokémon</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+<div style="text-align: center;color:black;font-size:8pt;">Pokémon And All Respective Names are Trademark & © of Nintendo 1996-2019</div>
+<script src="index.js">
+</script>
+
+</div>
+   </div>
+
+
+</body>
+</html>
+
+

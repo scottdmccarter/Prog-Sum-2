@@ -1,0 +1,1 @@
+const domain = window.location.href;

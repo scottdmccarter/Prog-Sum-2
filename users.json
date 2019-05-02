@@ -1,0 +1,203 @@
+{
+  "users": [
+    {
+      "uname": "test1",
+      "fname": "Test",
+      "sname": "One",
+      "fullname": "Test One",
+      "password": "$2b$10$hmYhqYz9V2JKDkL8RRUbYuAsZmO82rHXf1b5HZS7iy0USRZb3CVz.",
+      "favourites": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        54
+      ]
+    },
+    {
+      "uname": "test2",
+      "fname": "Test",
+      "sname": "Two",
+      "fullname": "Test Two",
+      "password": "$2b$10$58jJwlWM6NijJ4dgxAzwcuIRaGjShn1zenJfiaqg63uj7C3kG.rj6",
+      "favourites": []
+    },
+    {
+      "uname": "test0",
+      "fname": "Test",
+      "sname": "Number0",
+      "fullname": "Test Number0",
+      "password": "$2b$10$pV8CW3ZjnYUXRg1TIVB.KeVFzG1EEFrCbgPE5yrwZ1HX42Xn4oKwW",
+      "favourites": []
+    },
+    {
+      "uname": "test0.8134641139786611",
+      "fname": "Test",
+      "sname": "Number0.8134641139786611",
+      "fullname": "Test Number0.8134641139786611",
+      "password": "$2b$10$0aKKaxdXg3QdFkT38kF/NuLJBtlnAf3ND6wf9Ro4f7cVkMRlC/qT6",
+      "favourites": []
+    },
+    {
+      "uname": "test38",
+      "fname": "Test",
+      "sname": "Number38",
+      "fullname": "Test Number38",
+      "password": "$2b$10$5YJX9UGSG9oaGMNoYKMlpum3O0hLxKy9dFd5bpOwMp1H9EMHN1mSW",
+      "favourites": []
+    },
+    {
+      "uname": "test97",
+      "fname": "Test",
+      "sname": "Number97",
+      "fullname": "Test Number97",
+      "password": "$2b$10$qbHAzuc0fOv1LqmkU9Szpewjh9abQnobb/Q5xNQIQjRk3cm.dk0ia",
+      "favourites": []
+    },
+    {
+      "uname": "test82",
+      "fname": "Test",
+      "sname": "Number82",
+      "fullname": "Test Number82",
+      "password": "$2b$10$6V2n6iNaMf09WfuX1yX4X.eY8kYtX3V/EI945GW3cADIAu8iRaoV2",
+      "favourites": []
+    },
+    {
+      "uname": "test90",
+      "fname": "Test",
+      "sname": "Number90",
+      "fullname": "Test Number90",
+      "password": "$2b$10$gBwIeMIdCOCmXQmUJxS/6O5JbuidD6S43FKutZpFe3LNQZxmhgkQG",
+      "favourites": []
+    },
+    {
+      "uname": "test64",
+      "fname": "Test",
+      "sname": "Number64",
+      "fullname": "Test Number64",
+      "password": "$2b$10$fH8b8LyB/FSjITN7PnlwRedzCCe5UqZUGpUQoxTv.kEyqYbI363NO",
+      "favourites": []
+    },
+    {
+      "uname": "test80",
+      "fname": "Test",
+      "sname": "Number80",
+      "fullname": "Test Number80",
+      "password": "$2b$10$3xJ1HvBWcYW73wxY9sT1nemXbK5VzMyyw6wc4fSH.tjL19uftn9KO",
+      "favourites": []
+    },
+    {
+      "uname": "test81",
+      "fname": "Test",
+      "sname": "Number81",
+      "fullname": "Test Number81",
+      "password": "$2b$10$qKKYg0JJgWqKbL55nMBYXudrn7fKx3Zoh12FvGSGXHmkN4Lnccniq",
+      "favourites": []
+    },
+    {
+      "uname": "test99",
+      "fname": "Test",
+      "sname": "Number99",
+      "fullname": "Test Number99",
+      "password": "$2b$10$iuWFFxD6JjmLoE1Zi6VX4eV/hsIw1odBwOwsuVulqhQDXxj.fk0F.",
+      "favourites": []
+    },
+    {
+      "uname": "test79",
+      "fname": "Test",
+      "sname": "Number79",
+      "fullname": "Test Number79",
+      "password": "$2b$10$n4N1S7JloGwBOq9CHvKnvOlaFJj9OhxegCVgQGEfaRbdzBrleYbpi",
+      "favourites": []
+    },
+    {
+      "uname": "test89",
+      "fname": "Test",
+      "sname": "Number89",
+      "fullname": "Test Number89",
+      "password": "$2b$10$my819.rtZRTRohFC/pd6mOwOd7zRUGVtRxLyCBB9BVcpk6ezCVAVa",
+      "favourites": []
+    },
+    {
+      "uname": "test65",
+      "fname": "Test",
+      "sname": "Number65",
+      "fullname": "Test Number65",
+      "password": "$2b$10$foj4wlD9ynWrxruM.jLB/eC9idjh.LjrrxwQgj4C4e8G4Exshqz/W",
+      "favourites": []
+    },
+    {
+      "uname": "test47",
+      "fname": "Test",
+      "sname": "Number47",
+      "fullname": "Test Number47",
+      "password": "$2b$10$cM//16dECsKcIGCKd0UwH.8JwqFrWNZn2X40erQRiE.aeWB8dmqEG",
+      "favourites": []
+    },
+    {
+      "uname": "test6",
+      "fname": "Test",
+      "sname": "Number6",
+      "fullname": "Test Number6",
+      "password": "$2b$10$Pd.LXXkKlQdiww4nLOO1m.R4fw4NEDYVv.IbxYvN02DZ55QRkW0Ku",
+      "favourites": []
+    },
+    {
+      "uname": "test51",
+      "fname": "Test",
+      "sname": "Number51",
+      "fullname": "Test Number51",
+      "password": "$2b$10$nOddWWAAtrtzoRjcsK3iFeSkn4QP9UGmxOwm.jHLHY3H1uPoGrGKq",
+      "favourites": []
+    },
+    {
+      "uname": "test29",
+      "fname": "Test",
+      "sname": "Number29",
+      "fullname": "Test Number29",
+      "password": "$2b$10$8NCLhLJBqnt/VUV8S6tIH.ySicsAhitAbHzZ5a4TnmKRU9wumS9GC",
+      "favourites": []
+    },
+    {
+      "uname": "test96",
+      "fname": "Test",
+      "sname": "Number96",
+      "fullname": "Test Number96",
+      "password": "$2b$10$DmB6WgvnMmkjA273UfqBxeyGaR7gi2Pbe7ErswvrXr3oXEFtxpE1y",
+      "favourites": []
+    },
+    {
+      "uname": "test17",
+      "fname": "Test",
+      "sname": "Number17",
+      "fullname": "Test Number17",
+      "password": "$2b$10$9IpW8rSm38Rox1VrvH3SuOzxwXPnnrapAFHRW37XdFJthEPxjpov6",
+      "favourites": []
+    },
+    {
+      "uname": "test24",
+      "fname": "Test",
+      "sname": "Number24",
+      "fullname": "Test Number24",
+      "password": "$2b$10$JsnwruIciK/MQNeNvZezROBCtsmw5hmTS7pzUzDeX3tekOHNBqwXO",
+      "favourites": []
+    },
+    {
+      "uname": "ttocs278@gmail.com",
+      "fname": "Scott",
+      "sname": "McCarter",
+      "fullname": "Scott McCarter",
+      "favourites": []
+    },
+    {
+      "uname": "test19",
+      "fname": "Test19",
+      "sname": "Test",
+      "fullname": "Test19 Test",
+      "password": "$2b$10$JWVzrlhbIonJPF7TByKiiuGBHPDd3xNxcvLD8EwkzlpRYLYz/wukC",
+      "favourites": []
+    }
+  ]
+}
